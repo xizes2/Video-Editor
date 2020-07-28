@@ -2,7 +2,7 @@ from os import listdir
 from video_editor_functions import fast_edit_functions
 
 while True:
-    path = 'C:/Users/hp/PycharmProjects/Editor_de_Videos/Videos/'
+    path = 'D:\Fernando\Programming\Personal Projects\Editor_de_Videos\Videos'
     dir = listdir(path)
     if len(dir) == 0:
         print('There´s no videos on the directory.')
